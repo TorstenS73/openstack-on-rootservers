@@ -27,11 +27,13 @@ A root server is a phyical piece of server hardware. If it's not, then it's usua
 1. Because it will safe you money.
 2. Because it will provide you with a good compromise between control over your environment and purchasing as well as operational cost.
 
-There are a number of alternatives how you can run a small to medium data center for your organization. Let's compare them.
+## Alternatives to running OpenStack on Root Servers
 
-## Buy and host your own hardware
+Assuming you want cloud computing and prefer open source, there are still a number of alternatives how you can run a small to medium data center for your organization. Let's compare them.
 
-## Buy your own hardware and rent a rack
+### Buy and host your own hardware
 
-## Buy capacity from any cloud provider
+### Buy your own hardware and rent a rack
+
+### Buy capacity from any cloud provider
 
