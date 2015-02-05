@@ -9,3 +9,10 @@
 
 * MAC-Adresses
 * NICs
+
+## Notes
+
+1. tftpboot is way too slow over public network
+ 
+=> enable FTP besided TFTP on FUEL master
+
