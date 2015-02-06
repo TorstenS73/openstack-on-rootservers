@@ -14,5 +14,10 @@
 
 1. tftpboot is way too slow over public network
  
-=> enable FTP besided TFTP on FUEL master
+=> enable FTP besides TFTP on FUEL master
+needs to be done in cobbler + applicable port forwarding
 
+## OT
+
+* docker-enter: https://github.com/jpetazzo/nsenter
+ 
