@@ -27,3 +27,17 @@ Some untagged networks are assigned to the same physical interface. You should a
 "admin (PXE)", "public" networks at node "Untitled (37:f5)"
 
 => Fehler wenn nur eine Netzwerkkarte da ist
+
+Umgehung ... ???
+
+## Walkthrough
+
+## Änderungen
+
+* initramfs bootstrap:
+** ??? 
+(kexec klappt nicht mit CentOS!)
+
+* Puppet bricht ab
+
+Lösung: http://blog.oddbit.com/2014/05/23/solved-open-vswitch-and-persis/
