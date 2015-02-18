@@ -28,7 +28,7 @@ Some untagged networks are assigned to the same physical interface. You should a
 
 => Fehler wenn nur eine Netzwerkkarte da ist
 
-Umgehung ... ???
+Umgehung ... ??? änderung am Agent => "virtuelle" eth9
 
 ## Walkthrough
 
