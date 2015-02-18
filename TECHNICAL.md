@@ -4,6 +4,7 @@
 
 * IP Address space
 * Replace DHCP with pxe-kexec
+* Number of physical interfaces on machines
 
 ## Hetzner
 
