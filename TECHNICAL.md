@@ -42,3 +42,15 @@ Umgehung ... ??? änderung am Agent => "virtuelle" eth9
 * Puppet bricht ab
 
 Lösung: http://blog.oddbit.com/2014/05/23/solved-open-vswitch-and-persis/
+
+## Hints
+
+### Puppet run to install OpenStack onto the finally installed OS
+
+#### Update local copy of manifests: 
+  https://github.com/stackforge/fuel-library/blob/835c0eff6eeaa740e016d9dfaf041f592cc5b379/deployment/puppet/puppet/manifests/pull.pp
+
+#### Run again (in foreground)
+
+ puppet apply --verbose --debug --trace /etc/puppet/manifests/site.pp
+ 
