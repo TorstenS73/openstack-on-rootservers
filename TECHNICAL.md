@@ -50,6 +50,8 @@ Lösung: http://blog.oddbit.com/2014/05/23/solved-open-vswitch-and-persis/
 #### Update local copy of manifests: 
   https://github.com/stackforge/fuel-library/blob/835c0eff6eeaa740e016d9dfaf041f592cc5b379/deployment/puppet/puppet/manifests/pull.pp
 
+Original manifests are located in fuel-core-6.0-rsync in /etc/puppet.
+
 #### Run again (in foreground)
 
  puppet apply --verbose --debug --trace /etc/puppet/manifests/site.pp
