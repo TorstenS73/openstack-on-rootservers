@@ -38,11 +38,16 @@ Umgehung ... ??? änderung am Agent => "virtuelle" eth9
 #### Bootstrap phase
 
 * Boot the system into any Linux which has pxe-kexec available
-* pxe-kexec 10.20.0.2
+* pxe-kexec 10.20.0.2 => bootstrap eingeben
 
 Changes:
 
 * agent wg. eth9, muss in initramfs of bootstrap
+* aus dem Container nailgun mit scp rueberkopieren, 2-3 minuten wait
+
+* Konfiguration in FUEL machen und deployen
+* Reboot bootet wieder in das erste System, nicht in die OS-Installation
+* pxe-kexec 10.20.0.2 => linux eingeben
 
 ## Änderungen
 
