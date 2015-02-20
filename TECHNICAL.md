@@ -42,7 +42,7 @@ Umgehung ... ??? änderung am Agent => "virtuelle" eth9
 
 Changes:
 
-* agent wg. eth9
+* agent wg. eth9, muss in initramfs of bootstrap
 
 ## Änderungen
 
