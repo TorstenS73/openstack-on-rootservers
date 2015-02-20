@@ -33,6 +33,17 @@ Umgehung ... ??? änderung am Agent => "virtuelle" eth9
 
 ## Walkthrough
 
+### VirtualBox
+
+#### Bootstrap phase
+
+* Boot the system into any Linux which has pxe-kexec available
+* pxe-kexec 10.20.0.2
+
+Changes:
+
+* agent wg. eth9
+
 ## Änderungen
 
 * initramfs bootstrap:
