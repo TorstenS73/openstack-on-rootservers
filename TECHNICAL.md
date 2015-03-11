@@ -2,6 +2,7 @@
 
 ## In general
 
+* Do not run a DHCP server in a foreign data center (!!!)
 * IP Address space
 * Replace DHCP with pxe-kexec
 * Number of physical interfaces on machines
