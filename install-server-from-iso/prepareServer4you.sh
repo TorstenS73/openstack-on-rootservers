@@ -13,3 +13,11 @@ else
   fi
 fi
 
+# build-essential installieren
+# VirtualBox vom Oracle incl. Extension-Pack holen
+
+# Netzwerk-Parameter nach Installation
+# MAC-Adresse in /etc/sysconfig/networking-scripts/ifcfg-eth0 ersetzen
+# Gateway wird nicht in /etc/sysconfig/network eingetragen
+
+# Anschließend: Im Rescoue-System dd if=/dev/sdb of=/dev/sda bs=1M
