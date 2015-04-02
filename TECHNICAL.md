@@ -73,3 +73,11 @@ Original manifests are located in fuel-core-6.0-rsync in /etc/puppet.
 
  puppet apply --verbose --debug --trace /etc/puppet/manifests/site.pp
  
+### Reset FUEL Master 
+
+Inside nailgun container:
+
+  698  cd fuel-web/nailgun/
+  699  python manage.py dropdb
+  700  python manage.py syncdb
+  701  python manage.py loaddefault
